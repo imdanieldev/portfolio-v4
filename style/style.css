@@ -43,7 +43,7 @@
 }
 
 .input {
-    margin-left: 1rem;
+    margin-left: 5px;
     background-color: transparent;
     border: none;
     outline: none;
@@ -66,4 +66,15 @@
 }
 a{
     text-decoration: solid rgb(0, 255, 0) underline;
+}
+@media screen and (max-width:768px) {
+    .span,.flex{
+        display: block;
+    }
+    .font-base{
+        font-size: 14px;
+    }
+    .input{
+        margin-left: 0;
+    }
 }
