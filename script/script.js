@@ -133,7 +133,7 @@ function start(){
                         <br />
                         <div>
                             <p>const info = {</p>
-                                <span>&Full Name: "Daniel Nasr",</span>
+                                <span>Full Name: "Daniel Nasr",</span>
                                 <br>
                                 <span>Location: "Iran>isfahan",</span>
                                 <br>
