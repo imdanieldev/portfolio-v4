@@ -93,6 +93,26 @@ function start(){
                         <br />
                         <br />
                         `;
+<<<<<<< HEAD
+=======
+                    }else{
+                        $("main").innerHTML += `
+                        <br />
+                        <br />
+                        <div>
+                            <p>const info = {</p>
+                                <span>Full Name: "Daniel Nasr",</span>
+                                <br>
+                                <span>Location: "Iran>isfahan",</span>
+                                <br>
+                                <span>Birthday: "2008/3/7"</span>
+                            <p>}</p>
+                        </div>
+                        <br />
+                        <br />
+                        `;
+                    }
+>>>>>>> d1bbe156fedec8762f08ff708758026db433c7f2
                     start();
                 }
                 if($("#i"+num).value == 4){
