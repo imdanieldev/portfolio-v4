@@ -38,7 +38,7 @@ function start(){
     $("#i"+num).focus();
     $("#i"+num).addEventListener("keypress",(e)=>{
         if(e.key === "Enter"){
-            if($("#i"+num).value == 1 || $("#i"+num).value == 2 || $("#i"+num).value == 3 || $("#i"+num).value == 4 || $("#i"+num).value == 5){
+            if($("#i"+num).value == 1 || $("#i"+num).value == 2 || $("#i"+num).value == 3 || $("#i"+num).value == 4){
                 if($("#i"+num).value == 1){
                         $("main").innerHTML += `
                         <br />
@@ -93,26 +93,6 @@ function start(){
                         <br />
                         <br />
                         `;
-<<<<<<< HEAD
-=======
-                    }else{
-                        $("main").innerHTML += `
-                        <br />
-                        <br />
-                        <div>
-                            <p>const info = {</p>
-                                <span>Full Name: "Daniel Nasr",</span>
-                                <br>
-                                <span>Location: "Iran>isfahan",</span>
-                                <br>
-                                <span>Birthday: "2008/3/7"</span>
-                            <p>}</p>
-                        </div>
-                        <br />
-                        <br />
-                        `;
-                    }
->>>>>>> d1bbe156fedec8762f08ff708758026db433c7f2
                     start();
                 }
                 if($("#i"+num).value == 4){
@@ -126,20 +106,12 @@ function start(){
                         <span>About Me: 3</span>
                         <br>
                         <span>Clean Here: 4</span>
-                        <br>
-                        <span>Modern Version: 5</span>
                         </div>
                         `;
                     }, 2000);
                     setTimeout(() => {
                         start();
                     }, 3000);
-                }
-                if($("#i"+num).value == 5){
-                    $("main").innerHTML = '<iframe src="//imdanieldev.ir/portfolio-v2" class="iframe"></iframe>';
-                    $("main").className = "";
-                    $("head").innerHTML -= '<link rel="stylesheet" href="./style/style.css">';
-                    $("head").innerHTML += '<link rel="stylesheet" href="./style/iframe.css">';
                 }
             }else{
                 error();
