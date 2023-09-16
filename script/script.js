@@ -66,13 +66,13 @@ function start(){
                         <br />
                         <br />
                         <div>
-                        <span>HTML-CSS: true,</span>
+                        <span>HTML-CSS: 100%</span>
                         <br>
-                        <span>Js-VueJs: true,</span>
+                        <span>Js-VueJs: 40%</span>
                         <br>
-                        <span>Bootstrap-TailwindCss: true,</span>
+                        <span>Bootstrap-TailwindCss: 100%</span>
                         <br>
-                        <span>Git-Github: true</span>
+                        <span>Git-Github: 50%</span>
                         </div>
                         <br />
                         <br />
