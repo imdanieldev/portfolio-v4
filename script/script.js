@@ -48,12 +48,6 @@ function start(){
                         <br />
                         <span>Telegram: <a href="//t.me/imdanieln">@imdanieln</a></span>
                         <br />
-                        <span>Telegram Channel: <a href="//t.me/danieln_ch">@danieln_ch</a></span>
-                        <br />
-                        <span>Telegram Gap: <a href="//t.me/danieln-gap">@danieln_gap</a></span>
-                        <br />
-                        <span>Mastodon: <a href="//mas.to/imdanieln">@imdanieln@mas.to</a></span>
-                        <br />
                         <span>Github: <a href="//github.com/imdanieldev">imdanieldev</a></span>
                         </div>
                         <br />
